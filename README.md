@@ -1,7 +1,7 @@
 # DCA Reintegration
 A short description of your project.
 
-## Features
+## Content
 - Feature 1
 - Feature 2
 - Feature 3
