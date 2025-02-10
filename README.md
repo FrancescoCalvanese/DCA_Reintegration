@@ -10,7 +10,7 @@ This repository is associated with the *"Title"* paper. It provides the code for
 - **DATA**  
   Includes the dataset used in the main associated publication *"Title"*.
 
-- **Implementation from Terminal**  
+- **Terminal_Implementation**  
   Provides instructions on how to apply the reintegration procedure within the `adabmDCA` package via the command line.
 
 ## **Usage**
