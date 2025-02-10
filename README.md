@@ -10,11 +10,11 @@ This repository is associated with the *"Title"* paper. It provides the code for
 - **DATA**  
   Includes the dataset used in the main associated publication *"Title"*.
 
-- **Terminal_Implementation**  
+- **Terminal Implementation**  
   Provides instructions on how to apply the reintegration procedure within the `adabmDCA` package via the command line.
 
 ## **Usage**
-Refer to the Colab notebook for step-by-step guidance on utilizing the reintegration procedure. For command-line execution, follow the instructions in the *Implementation from Terminal* section.
+Refer to the Colab notebook for step-by-step guidance on utilizing the reintegration procedure. For command-line execution, follow the instructions in the *Terminal Implementation* section.
 
 For any issues or inquiries, please open an issue or reach out to the authors.
 
