@@ -1,6 +1,6 @@
 # **DCA Reintegration**
 
-This repository is associated with the [Calvanese,Penetti et al.](https://void) paper. It provides the code for integrating an experimentally labeled dataset to train an experiment-informed Direct Coupling Analysis (DCA) generative model for proteins and RNA.
+This repository is associated with the [Calvanese, Penetti et al.](https://void) paper. It provides the code for integrating an experimentally labeled dataset to train an experiment-informed Direct Coupling Analysis (DCA) generative model for proteins and RNA.
 
 ## **Contents**
 
@@ -8,7 +8,7 @@ This repository is associated with the [Calvanese,Penetti et al.](https://void) 
   Contains a fully functional and commented Colab notebook demonstrating the application of the reintegration procedure to a DCA generative model. The implementation is showcased in the context of the *Chorismate Mutase* enzyme, building on experimental results obtained in [Russ et al.](https://www.science.org/doi/10.1126/science.aba3304)
 
 - **DATA**  
-  Includes the dataset used in the main associated publication [Calvanese,Penetti et al.](https://void).
+  Includes the dataset used in the main associated publication [Calvanese, Penetti et al.](https://void).
 
 - **Terminal Implementation**  
   Provides instructions on how to apply the reintegration procedure within the `adabmDCA` package via the command line.
