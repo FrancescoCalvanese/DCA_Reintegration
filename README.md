@@ -1,4 +1,4 @@
-# **DCA Reintegration**
+# **Integrating Experimental Feedback Into DCA Model Training**
 
 This repository is associated with the [Calvanese, Penetti et al.](https://void) paper. It provides the code for integrating an experimentally labeled dataset to train an experiment-informed Direct Coupling Analysis (DCA) generative model for proteins and RNA.
 
