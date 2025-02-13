@@ -8,7 +8,7 @@ Detailed instructions on installing and operating the package can be found in th
 To run the training of a reintegrated DCA model, use the following command:
 
 ```bash
-adabmDCA reintegrate -d Nat_MSA -o output_folder --reint Reint_MSA --adj ADJ_vector --lambda lambda_value --alphabet 'proteins'
+adabmDCA reintegrate -d Nat_MSA -o output_folder --reint Reint_MSA --adj ADJ_vector --lambda lambda_value --alphabet 'protein'
 ```
 
 ## Parameters
@@ -19,7 +19,7 @@ adabmDCA reintegrate -d Nat_MSA -o output_folder --reint Reint_MSA --adj ADJ_vec
   - `1` if the i-th sequence of the `Reint_MSA` passes the experimental test.
   - `-1` if the i-th sequence does not pass the experimental test.
 - **`--lambda lambda_value`**: Sets the reintegration strength. A value of `1` has been observed to yield consistently good results.
-- **`--alphabet 'proteins' or 'rna'`**: Specifies whether the dataset corresponds to RNA or proteins.
+- **`--alphabet 'protein' or 'rna'`**: Specifies whether the dataset corresponds to RNA or proteins.
 
 It is possible to use continuous values from `-1` to `1` for the `ADJ_vector`, depending on the performance of the sequence in the experiment. Additionally, the `lambda` parameter can be fine-tuned to adjust the reintegration strength. If unsure, a good starting point is to use `lambda = 1` and `±1` values for the `ADJ_vector`.
 
@@ -28,7 +28,7 @@ It is possible to use continuous values from `-1` to `1` for the `ADJ_vector`, d
 Download the `Notebook_implementation/Notebook_DATA.zip` and then run:
 
 ```bash
-adabmDCA reintegrate -d Natural_CM.faa -o output_folder --reint P1_sample_CM.faa --adj P1_sample_exp.txt --lambda 1.0 --alphabet 'proteins'
+adabmDCA reintegrate -d Natural_CM.faa -o output_folder --reint P1_sample_CM.faa --adj P1_sample_exp.txt --lambda 1.0 --alphabet 'protein'
 ```
 
 This will allow to see the program in action on the *Chorismate Mutase* Protein Enzyme and gain a closer look at the required data format.
