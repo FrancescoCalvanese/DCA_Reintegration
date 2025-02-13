@@ -1,4 +1,4 @@
-## **Notebook Implementation**
+# **Notebook Implementation**
 
 `Notebook_Implementation.ipynb` contains a **commented Colab walkthrough** of the reintegration procedure applied to **DCA generative models**.  
 
