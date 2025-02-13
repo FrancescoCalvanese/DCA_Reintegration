@@ -31,6 +31,8 @@ Download the `Notebook_implementation/Notebook_DATA.zip` and then run:
 adabmDCA reintegrate -d Natural_CM.faa -o output_folder --reint P1_sample_CM.faa --adj P1_sample_exp.txt --lambda 1.0 --alphabet 'proteins'
 ```
 
+This will allow to see the program in action on the *Chorismate Mutase* Protein Enzyme and gain a closer look at the required data format.
+
 ## Additional Configuration
 These options are specific to the reintegration process. However, all other standard **DCA model parameters** can be adjusted using the general adabmDCA options available in the [documentation](https://spqb.github.io/adabmDCApy/).
 
