@@ -2,7 +2,7 @@
 
 ## About adabmDCA
 [adabmDCA](https://www.biorxiv.org/content/10.1101/2025.01.31.635874v1) is the primary package designed for training Direct Coupling Analysis (DCA) generative models and generating artificial protein/RNA designs. 
-Detailed instructions on operating the package can be found in the [documentation](https://spqb.github.io/adabmDCApy/). This guide explains how to use adabmDCA to train a reintegrated bmDCA model.
+Detailed instructions on installing and operating the package can be found in the [documentation](https://spqb.github.io/adabmDCApy/). This guide explains how to use adabmDCA to train a reintegrated bmDCA model.
 
 ## Command Syntax
 To run the training of a reintegrated DCA model, use the following command:
@@ -22,6 +22,14 @@ adabmDCA reintegrate -d Nat_MSA -o output_folder --reint Reint_MSA --adj ADJ_vec
 - **`--alphabet 'proteins' or 'rna'`**: Specifies whether the dataset corresponds to RNA or proteins.
 
 It is possible to use continuous values from `-1` to `1` for the `ADJ_vector`, depending on the performance of the sequence in the experiment. Additionally, the `lambda` parameter can be fine-tuned to adjust the reintegration strength. If unsure, a good starting point is to use `lambda = 1` and `±1` values for the `ADJ_vector`.
+
+
+## Usage Example
+Download the `Notebook_implementation/Notebook_DATA.zip` and then run:
+
+```bash
+adabmDCA reintegrate -d Nat_MSA -o output_folder --reint Reint_MSA --adj ADJ_vector --lambda lambda_value --alphabet 'proteins'
+```
 
 ## Additional Configuration
 These options are specific to the reintegration process. However, all other standard **DCA model parameters** can be adjusted using the general adabmDCA options available in the [documentation](https://spqb.github.io/adabmDCApy/).
