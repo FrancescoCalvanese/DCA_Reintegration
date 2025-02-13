@@ -26,7 +26,7 @@ It is possible to use continuous values from `-1` to `1` for the `ADJ_vector`, d
 ## Additional Configuration
 These options are specific to the reintegration process. However, all other standard **DCA model parameters** can be adjusted using the general adabmDCA options available in the [documentation](https://spqb.github.io/adabmDCApy/).
 
-For more details on the methodology, refer to the main associated [publications](#).
+For more details on the methodology, refer to the main associated [publication](#).
 
 ---
 If you encounter any issues, please check the documentation or open an issue in the repository.
