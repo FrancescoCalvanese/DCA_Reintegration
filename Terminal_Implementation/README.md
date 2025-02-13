@@ -36,6 +36,4 @@ These options are specific to the reintegration process. However, all other stan
 
 For more details on the methodology, refer to the main associated [publication](#).
 
----
-If you encounter any issues, please check the documentation or open an issue in the repository.
 
