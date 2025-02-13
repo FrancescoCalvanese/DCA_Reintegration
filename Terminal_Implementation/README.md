@@ -2,7 +2,7 @@
 
 ## About adabmDCA
 [adabmDCA](https://www.biorxiv.org/content/10.1101/2025.01.31.635874v1) is the primary package designed for training Direct Coupling Analysis (DCA) generative models and generating artificial protein/RNA designs. 
-Detailed instructions on operating the package can be found in the [documentation]([#](https://spqb.github.io/adabmDCApy/)). This guide explains how to use adabmDCA to train a reintegrated bmDCA model.
+Detailed instructions on operating the package can be found in the [documentation](https://spqb.github.io/adabmDCApy/). This guide explains how to use adabmDCA to train a reintegrated bmDCA model.
 
 ## Command Syntax
 To run the training of a reintegrated DCA model, use the following command:
