@@ -28,7 +28,7 @@ It is possible to use continuous values from `-1` to `1` for the `ADJ_vector`, d
 Download the `Notebook_implementation/Notebook_DATA.zip` and then run:
 
 ```bash
-adabmDCA reintegrate -d Nat_MSA -o output_folder --reint Reint_MSA --adj ADJ_vector --lambda lambda_value --alphabet 'proteins'
+adabmDCA reintegrate -d Natural_CM.faa -o output_folder --reint P1_sample_CM.faa --adj P1_sample_exp.txt --lambda 1.0 --alphabet 'proteins'
 ```
 
 ## Additional Configuration
